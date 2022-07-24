@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
     private fun populateList(list: List<Beer>) {
         beerList.apply {
             hasFixedSize()
-            adapter = BeerAdapter(list)
+            adapter = MainAdapter(list)
         }
     }
 
