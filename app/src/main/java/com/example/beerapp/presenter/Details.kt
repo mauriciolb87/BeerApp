@@ -1,9 +1,9 @@
 package com.example.beerapp.presenter
 
 import android.os.Bundle
-import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -32,6 +32,10 @@ class Details : AppCompatActivity() {
         val beer = bundle?.get("beerData") as Beer
         binding.tvName.text = beer.name
         binding.tvDescription.text = beer.description
+        binding.tvTagline.text = beer.tagline
+
+
+
         binding.ivBeerImage.load(beer.image_url) {
             placeholder(R.drawable.ic_launcher_background)
             fallback(R.drawable.ic_launcher_background)
