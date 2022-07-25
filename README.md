@@ -4,4 +4,4 @@
 
 > **Projeto basico criado com a extenção exp4 para calcular, fragment, bind. **
 
-<a href="#backers" alt="sponsors on Open Collective"><img src="https://github.com/mauriciolb87/BeerApp/blob/master/Screenshot_20220725_172545.png" /></a>
+<a href="#backers" alt="sponsors on Open Collective"><img src="https://github.com/mauriciolb87/BeerApp/blob/master/print.png" /></a>
