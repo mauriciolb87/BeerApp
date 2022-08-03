@@ -3,10 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/mauri/Desktop/GitHub/Apps/BeerApp/app/src/main/res/layout/activity_main.xml" value="0.33" />
-        <entry key="..\:/Users/mauri/Desktop/GitHub/Apps/BeerApp/app/src/main/res/layout/beer_details_layout.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/mauri/Desktop/GitHub/Apps/BeerApp/app/src/main/res/layout/beer_item_layout.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/mauri/Desktop/GitHub/Apps/BeerApp/app/src/main/res/layout/detais.xml" value="0.33" />
+        <entry key="..\:/Users/mauri/Desktop/GitHub/Apps/BeerApiApp/app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/mauri/Desktop/GitHub/Apps/BeerApiApp/app/src/main/res/layout/beer_details_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mauri/Desktop/GitHub/Apps/BeerApiApp/app/src/main/res/layout/beer_item_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mauri/Desktop/GitHub/Apps/BeerApiApp/app/src/main/res/layout/details_fragment.xml" value="0.27685185185185185" />
+        <entry key="..\:/Users/mauri/Desktop/GitHub/Apps/BeerApiApp/app/src/main/res/layout/home_fragment.xml" value="0.28888888888888886" />
+        <entry key="..\:/Users/mauri/Desktop/GitHub/Apps/BeerApiApp/app/src/main/res/layout/search_fragment.xml" value="0.28888888888888886" />
+        <entry key="..\:/Users/mauri/Desktop/GitHub/Apps/BeerApiApp/app/src/main/res/layout/settings_fragment.xml" value="0.28888888888888886" />
+        <entry key="..\:/Users/mauri/Desktop/GitHub/Apps/BeerApiApp/app/src/main/res/menu/main_navigation_menu.xml" value="0.36102564102564105" />
       </map>
     </option>
   </component>

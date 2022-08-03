@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">BeerApp</string>
+    <string name="app_name">BeerApiApp</string>
+
+
+    <!-- main_navigation_menu -->
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="settings">Settings</string>
+    <string name="details">Details</string>
+    <string name="HomeFragment">homeFragment</string>
 </resources>

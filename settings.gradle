@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "BeerApp"
+rootProject.name = "BeerApiApp"
 include ':app'
