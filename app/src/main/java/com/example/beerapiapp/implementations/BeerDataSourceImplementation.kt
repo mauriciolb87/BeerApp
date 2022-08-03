@@ -30,4 +30,8 @@ class BeerDataSourceImplementation(private val beerRestApiTask: BeerRestApiTask)
         return beerList
     }
 
+    override fun searchBeer(): List<Beer> {
+        TODO("Not yet implemented")
+    }
+
 }

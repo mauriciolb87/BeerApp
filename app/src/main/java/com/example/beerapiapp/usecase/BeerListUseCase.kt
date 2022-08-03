@@ -6,4 +6,5 @@ class BeerListUseCase(private val beerRepository: BeerRepository) {
 
     operator fun invoke() = beerRepository.getAllBeersFromDataSource()
 
+
 }

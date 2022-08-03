@@ -20,8 +20,6 @@ import kotlinx.android.synthetic.main.details_fragment.view.*
 
 class MainAdapter(private val beerList: List<Beer> ): RecyclerView.Adapter<ViewHolder>() {
 
-    private var detailsFragment = DetailsFragment()
-
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.beer_item_layout, parent, false)
         return ViewHolder(view)

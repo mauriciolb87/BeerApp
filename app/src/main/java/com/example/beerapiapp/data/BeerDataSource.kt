@@ -6,4 +6,6 @@ interface BeerDataSource {
 
     fun getAllBeer(): List<Beer>
 
+    fun searchBeer(): List<Beer>
+
 }

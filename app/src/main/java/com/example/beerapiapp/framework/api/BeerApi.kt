@@ -9,4 +9,7 @@ interface BeerApi {
     @GET("beers")
     fun getAllBeer(): Call<List<Beer>>
 
+    @GET("beers?beer_name=")
+    fun searchBeer(): Call<List<Beer>>
+
 }
