@@ -31,7 +31,19 @@ class BeerDataSourceImplementation(private val beerRestApiTask: BeerRestApiTask)
     }
 
     override fun searchBeer(): List<Beer> {
-        TODO("Not yet implemented")
+        val request = beerRestApiTask.retrofitApi().searchBeer().execute()
+
+        if (request.isSuccessful) {
+            request.body()?.let {
+                beerList.addAll(it)
+            }
+        } else {
+            request.errorBody()?.let {
+                Log.d(TAG, it.toString())
+            }
+        }
+
+        return beerList
     }
 
 }

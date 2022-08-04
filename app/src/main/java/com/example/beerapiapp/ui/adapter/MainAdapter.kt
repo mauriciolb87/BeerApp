@@ -28,6 +28,7 @@ class MainAdapter(private val beerList: List<Beer> ): RecyclerView.Adapter<ViewH
    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.itemView.apply {
             holder.title.text = beerList[position].name
+            holder.description.text = beerList[position].description
 
               Glide.with(context)
                 .load(beerList[position].image_url)
